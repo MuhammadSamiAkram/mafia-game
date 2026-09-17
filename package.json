@@ -1,0 +1,10 @@
+{
+  "name": "mafia-party-game",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Real-time Mafia party game with host screen and phone players",
+  "main": "server.js",
+  "scripts": {"start":"node server.js"},
+  "engines": {"node": ">=22"},
+  "dependencies": {"express":"^5.1.0","ws":"^8.18.3"}
+}
